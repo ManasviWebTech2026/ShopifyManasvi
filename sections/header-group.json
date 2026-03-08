@@ -1,0 +1,117 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-28f4a0f7-803d-4058-a987-1034dddc6258",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "scrolling_text_HLqXMV": {
+      "type": "scrolling-text",
+      "blocks": {
+        "item_hJKz7A": {
+          "type": "item",
+          "settings": {
+            "text": "✨ Luxury Sarees For Weddings & Celebrations",
+            "link": ""
+          }
+        },
+        "item_RJXfn4": {
+          "type": "item",
+          "settings": {
+            "text": "👑 Signature Styles, Exclusively at House of Manasvi",
+            "link": ""
+          }
+        },
+        "item_AxHyhX": {
+          "type": "item",
+          "settings": {
+            "text": "🚚 Free Shipping Across India",
+            "link": ""
+          }
+        },
+        "item_VUgW4T": {
+          "type": "item",
+          "settings": {
+            "text": "🎉 Enjoy 10% Off on Your First Order",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_hJKz7A",
+        "item_RJXfn4",
+        "item_AxHyhX",
+        "item_VUgW4T"
+      ],
+      "name": "Scrolling Text",
+      "settings": {
+        "bg_color": "#000000",
+        "color": "#ffffff",
+        "link_color": "#000000",
+        "font_size": 1.5,
+        "text_size": "text-sm",
+        "text_weight": "",
+        "text_transform": "text-capitalize",
+        "list_label": "Promotional Features",
+        "animation_duration": 43,
+        "marquee_direction": "left",
+        "gap": 38,
+        "pt": 1,
+        "pb": 1,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "mobile_logo_position": "center",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "mega_menu_images_toggle": "metafield",
+        "mega_menu_images_title": false,
+        "megamenu_backdrop_toggle": true,
+        "dropdown_menu_images_toggle": "none",
+        "drawer_menu_images_toggle": "none",
+        "menu_images_size": 60,
+        "menu_images_border_toggle": true,
+        "menu_images_border_color": "#eaeaea",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": true,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "scrolling_text_HLqXMV",
+    "header"
+  ]
+}
