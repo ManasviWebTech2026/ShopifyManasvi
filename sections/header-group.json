@@ -84,13 +84,13 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "middle-center",
+        "logo_position": "middle-left",
         "mobile_logo_position": "center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "mega_menu_images_toggle": "metafield",
         "mega_menu_images_title": false,
-        "megamenu_backdrop_toggle": true,
+        "megamenu_backdrop_toggle": false,
         "dropdown_menu_images_toggle": "none",
         "drawer_menu_images_toggle": "none",
         "menu_images_size": 60,
