@@ -58,6 +58,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_F9AkP3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.product_tab_information != blank %}\n\n  <script>\n    window.variantSpecs =\n    {{ product.metafields.custom.product_tab_information.value | json }};\n  </script>\n\n  <div class=\"specs-materials\">\n    <h3>Specs & Materials</h3>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Dimensions:</div>\n      <div class=\"spec-value\" id=\"spec-dimensions\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Weight:</div>\n      <div class=\"spec-value\" id=\"spec-weight\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Design:</div>\n      <div class=\"spec-value\" id=\"spec-design\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Perfect For:</div>\n      <div class=\"spec-value\" id=\"spec-perfect-for\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Style & Function:</div>\n      <div class=\"spec-value\" id=\"spec-style\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Material:</div>\n      <div class=\"spec-value\" id=\"spec-material\"></div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Sold As:</div>\n      <div class=\"spec-value\" id=\"spec-sold-as\"></div>\n    </div>\n  </div>\n\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_F9AkP3"
       ],
       "settings": {
         "enable_sticky_info": true,
