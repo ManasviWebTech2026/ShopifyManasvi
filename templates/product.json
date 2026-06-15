@@ -34,6 +34,10 @@
             "swatch_shape": "circle"
           }
         },
+        "aris_product_options_avisplus_options_block_g3Xqza": {
+          "type": "shopify://apps/aris-product-options/blocks/avisplus-options-block/e076618e-4c9c-447f-ad6d-4f1577799c29",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -61,6 +65,7 @@
         "title",
         "price",
         "variant_picker",
+        "aris_product_options_avisplus_options_block_g3Xqza",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -69,7 +74,7 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
-        "media_size": "large",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "stacked",
